@@ -29,6 +29,10 @@
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="manifest" href="img/site.webmanifest">
     </head>
 
     <body data-smooth-scroll-offset="77">
@@ -333,6 +337,33 @@
         <!-- Particles Javascript Files -->
         <script type="text/javascript" src="js/particles.min.js"></script>
         <script type="text/javascript" src="js/particlesRun.js"></script>
+
+        <!-- Google structured data -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://meshfirm.com",
+          "name": "Mesh Firm",
+          "legalName" : "Mesh Firm ApS",
+          "foundingDate": "2020",
+          "logo": "https://meshfirn.com/img/mesh-thumbnail.png",
+          "founders": [{
+             "@type": "Person",
+             "name": "Sebastian Krumhausen"
+             }],
+             "address": {
+             "@type": "PostalAddress",
+             "streetAddress": "Århusgade 60",
+             "addressLocality": "Copenhagen",
+             "postalCode": "2100",
+             "addressCountry": "Denmark"},
+           "sameAs": [
+             "https://meshfirm.com",
+             "https://www.linkedin.com/meshfirm"
+           ]}
+        }
+        </script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-10127534-6"></script>
